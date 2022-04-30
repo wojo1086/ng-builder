@@ -1,3 +1,8 @@
-<div>
-    {{data.name}}
+<div fxLayout="column">
+    <div class="icon" fxLayout="row" fxLayoutAlign="center center">
+        <fa-icon [icon]="data.icon"></fa-icon>
+    </div>
+    <p class="name">
+        {{data.name}}
+    </p>
 </div>
