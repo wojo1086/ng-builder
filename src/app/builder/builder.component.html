@@ -1,0 +1,23 @@
+<nb-layout>
+
+    <nb-layout-header fixed>
+        <!-- Insert header here -->
+    </nb-layout-header>
+
+    <nb-sidebar>
+        <div fxLayout="row">
+            <app-component fxFlex="33%" *ngFor="let component of components" [data]="component"></app-component>
+        </div>
+    </nb-sidebar>
+
+    <nb-layout-column>
+
+    </nb-layout-column>
+
+    <nb-sidebar right></nb-sidebar>
+
+    <!--  <nb-layout-footer fixed>-->
+    <!--  &lt;!&ndash; Insert footer here &ndash;&gt;-->
+    <!--  </nb-layout-footer>-->
+
+</nb-layout>
